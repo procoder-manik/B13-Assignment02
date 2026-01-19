@@ -15,9 +15,9 @@
   padding: 40px;
 }
 
-#Featured iframe {
+/* #Featured iframe {
    max-height: 225px;
-}
+} */
 
 
 
@@ -49,9 +49,9 @@
     height: 100%;
 }
 
-#Featured iframe {
+/* #Featured iframe {
    max-height: 214px;
-}
+} */
 
 
 
@@ -71,9 +71,9 @@
 @media (min-width: 993px) {
 .nav-bar{display: none;}
   
-#Featured iframe {
+/* #Featured iframe {
    max-height: 214px;
-}
+} */
 
 
 
