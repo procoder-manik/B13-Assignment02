@@ -256,3 +256,20 @@ p {
   background-position: center;
   padding: 120px;
 }
+.footer-social a{
+  padding:10px 20px;
+  transition: transform 0.24s ease;
+}
+.footer-social a:hover {
+  transform: scale(1.2);
+  background: var(--gradient-primary);
+  padding:10px 20px;
+  border-radius: 50px;
+  /* border: 2px solid var(--bg-color2); */
+}
+
+.footer-social:hover a:not(:hover) {
+  filter: blur(2px);
+  opacity: 0.6;
+  
+}
