@@ -1,0 +1,171 @@
+/* ========================
+   GLOBAL RESET
+======================== */
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+
+/* ========================
+   COLOR SYSTEM
+======================== */
+:root {
+  /* Brand Colors */
+  --primary-color: #ffffff;
+
+    /* Gradient Colors */
+  --gradient-yellow: #F7E93F;
+  --gradient-pink: #FB09B4;
+  --gradient-purple: #9100F8;
+
+  /* Full Gradient */
+  --gradient-primary: linear-gradient(
+    45deg,
+    var(--gradient-yellow) 0%,
+    var(--gradient-pink) 51%,
+    var(--gradient-purple) 100%
+  );
+
+  /* Backgrounds */
+  --bg-color: #1A0B2E;
+  --bg-color2: #412567 ;
+  --bg-color3: #230E3D;
+  --bg-box: #533C72;
+
+
+  /* Text */
+  --text-color: #ffffff;
+  --text-white: #ffffff;
+  --text-green: #00FF88;
+  
+}
+/* ========================
+   TYPOGRAPHY
+======================== */
+h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+h3 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 1rem auto;
+}
+
+/* ========================
+   LAYOUT UTILITIES
+======================== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* ========================
+   BUTTONS
+======================== */
+.btn {
+  display: inline-block;
+  padding: .8rem 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  background: var(--gradient-primary);
+  color: var(--text-white);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.btn:hover {
+  transform: scale(.8);
+  box-shadow: 0 4px 0 #000;
+}
+
+
+/* ========================
+   GRID / FLEX HELPERS
+======================== */
+/* .grid {
+  display: grid;
+  gap: 20px;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-two {
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* ========================
+   Image
+======================== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Global End */
+
+/* ========================
+   Normal CSS
+======================== */
+
+#header{
+  border-bottom: 1px solid var(--bg-color2);
+}
+#header .logo{
+  font-size:  clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+}
+
+#header .logo .text-gradient{
+  background: linear-gradient(90deg, #ff00cc, #ff8800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
