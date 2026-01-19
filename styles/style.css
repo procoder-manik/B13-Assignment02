@@ -66,7 +66,6 @@ h4 {
 }
 
 p {
-  font-size: 1rem;
   color: var(--text-color);
   margin-bottom: 1rem auto;
 }
@@ -212,10 +211,41 @@ p {
 
 
 
+/* Host */
+#Host{
+  padding-bottom: 120px;
+}
 
 
+.social-icons {
+  display: flex;
+  gap: 10px; 
+}
 
+.social-icons a {
+  border: 1px solid var(--bg-color2);
+  padding: 10px;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* Scale hovered icon */
+.social-icons a:hover {
+  transform: scale(1.5);
+  border: 2px solid var(--bg-color2);
+}
+
+/* Blur other icons when one is hovered */
+.social-icons:hover a:not(:hover) {
+  filter: blur(2px);
+  opacity: 0.6;
+}
 
 /* footer */
 
