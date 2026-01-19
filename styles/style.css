@@ -45,30 +45,7 @@ body {
   --text-green: #00FF88;
   
 }
-/* ========================
-   TYPOGRAPHY
-======================== */
-h1 {
-  font-size: clamp(2.2rem, 5vw, 3.5rem);
-  line-height: 1.2;
-}
 
-h2 {
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
-}
-
-h3 {
-  font-size: clamp(1.4rem, 3vw, 2rem);
-}
-
-h4 {
-  font-size: 1.25rem;
-}
-
-p {
-  color: var(--text-color);
-  margin-bottom: 1rem auto;
-}
 
 /* ========================
    LAYOUT UTILITIES
@@ -165,7 +142,7 @@ p {
 
 /* Host */
 #Host{
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 
