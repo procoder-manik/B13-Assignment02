@@ -36,7 +36,7 @@ body {
   --bg-color: #1A0B2E;
   --bg-color2: #412567 ;
   --bg-color3: #230E3D;
-  --bg-box: #250D44;
+  --bg-box: #351165;
 
 
   /* Text */
@@ -228,15 +228,15 @@ body {
 
 /* Scale hovered icon */
 .social-icons a:hover {
-  transform: scale(1.5);
+  transform: scale(.8);
   border: 2px solid var(--bg-color2);
 }
 
 /* Blur other icons when one is hovered */
-.social-icons:hover a:not(:hover) {
+/* .social-icons:hover a:not(:hover) {
   filter: blur(2px);
   opacity: 0.6;
-}
+} */
 
 /* footer */
 
@@ -249,21 +249,20 @@ body {
 }
 .footer-social a{
   padding:10px 20px;
-  transition: transform 0.24s ease;
+  transition: transform 0.34s ease;
 }
 .footer-social a:hover {
-  transform: scale(1.2);
+  transform: scale(.8);
   background: var(--gradient-primary);
-  padding:10px 20px;
   border-radius: 50px;
   /* border: 2px solid var(--bg-color2); */
 }
 
-.footer-social:hover a:not(:hover) {
+/* .footer-social:hover a:not(:hover) {
   filter: blur(2px);
   opacity: 0.6;
   
-}
+} */
 
 
 /*  */
