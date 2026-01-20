@@ -138,11 +138,31 @@ body {
   background-size: cover;
   width: 350px;
   height: 350px;
+  position: relative;
+}
+#hero .bg-circle::after{
+  
+  position: absolute;
+  content: 'New';
+  top: 28px;
+  right: 0;
+  width: 70px;
+  /* height: 30px; */
+  background: var(--text-green);
+  color: var(--bg-color);
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 14px;
 }
 
 .bg-circle img{
   width: 100px;
 }
+
+
+
 
 
 

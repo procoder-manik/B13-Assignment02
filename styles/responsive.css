@@ -16,27 +16,20 @@
 }
 
 #hero .bg-circle{
-   width: 250px;
-  height: 250px;
+   width: 200px;
+  height: 200px;
 }
 .bg-circle img{
   width: 80px;
 }
 
 
-/* .#hero{
-   background: none;
-   padding: 0 ;
+
+#hero .bg-circle::after{
+  
+  top: 5px;
+  right: -10px;
 }
-
-#hero .bg-image{
-    background: url(../assets/hero-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 80px 0;
-} */
-
 
 
 
