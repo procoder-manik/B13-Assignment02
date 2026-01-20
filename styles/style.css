@@ -60,6 +60,7 @@ body {
 /* ========================
    BUTTONS
 ======================== */
+
 .btn {
   display: inline-block;
   padding: .8rem 1.2rem;
@@ -70,13 +71,23 @@ body {
   background: var(--gradient-primary);
   color: var(--text-white);
   cursor: pointer;
-  transition: transform 0.15s ease;
 }
 
+/* same effect, using keyframes */
 .btn:hover {
-  transform: scale(.8);
+  animation: btnScale 0.15s ease forwards;
   box-shadow: 0 4px 0 #000;
 }
+
+@keyframes btnScale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.8);
+  }
+}
+
 
 /* Global End */
 
@@ -137,6 +148,10 @@ body {
   transform: scaleY(1);
 }
 
+
+
+
+
 /* hero */
 
 #hero {
@@ -180,13 +195,15 @@ body {
   height: 350px;
   position: relative;
 }
+
+
+
 #hero .bg-circle::after{
   position: absolute;
   content: 'New';
   top: 28px;
   right: 0;
   width: 70px;
-  /* height: 30px; */
   background: var(--text-green);
   color: var(--bg-color);
   border-radius: 50px;
