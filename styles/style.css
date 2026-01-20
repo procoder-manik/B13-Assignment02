@@ -141,7 +141,6 @@ body {
   position: relative;
 }
 #hero .bg-circle::after{
-  
   position: absolute;
   content: 'New';
   top: 28px;
@@ -160,23 +159,6 @@ body {
 .bg-circle img{
   width: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -242,3 +224,7 @@ body {
   opacity: 0.6;
   
 }
+
+
+/*  */
+
